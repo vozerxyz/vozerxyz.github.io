@@ -1,0 +1,145 @@
+html {
+    background-color: #F8F8F8;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: justify;
+    line-height: 1.25;
+    margin: 16px auto;
+    padding: 32px;
+    border: solid #ccc 1px;
+    border-radius: 20px;
+    max-width: 70em;
+    width: 90%;
+}
+
+h1, h2, h3, h4 {
+    color: #000080;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+}
+
+h1 {
+    font-size: 28pt;
+}
+
+h1 img {
+    vertical-align: text-bottom;
+}
+
+h2:before {
+    content: "\2756";
+    padding-right: 0.5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #000080;
+}
+
+a:link:hover, a:visited:hover {
+    background-color: #D0D0FF;
+    color: #000080;
+    border-radius: 4px;
+}
+
+a:link:active, a:visited:active {
+    color: #FF0000;
+}
+
+div.menubar {
+    padding-bottom: 0.5em;
+}
+
+p.menubar {
+    margin-left: 2.5em;
+}
+
+.menubar a:hover {
+    margin: -3px;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+table {
+    border: none;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+td {
+    padding: 0;
+    margin: 0;
+}
+
+td ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+td.menu ul {
+    padding-left: 50px;
+    font-size: large;
+    line-height: 1.5;
+}
+
+td.menu a:hover, td.news a:hover {
+    padding: 3px 6px;
+    border-radius: 4px;
+}
+
+td.news ul {
+    border-left: 2px solid #F0F0F0;
+    padding-left: 2em;
+    font-size: medium;
+    line-height: 1.35;
+}
+
+td.news li:last-child {
+    margin-bottom: 0;
+}
+
+img {
+    vertical-align: text-bottom;
+    background-color: white;
+}
+
+table.columns td {
+    vertical-align: top;
+    padding-bottom: 1em;
+    text-align: justify;
+    line-height: 1.25;
+}
+
+table.book td {
+    vertical-align: top;
+}
+
+table.book td.cover {
+    padding-right: 1em;
+}
+
+table.book img {
+    border: solid #000080 1px;
+    border-radius: 2px;
+}
+
+table.book span {
+    font-size: small;
+    text-align: left;
+    display: block;
+    margin-top: 0.25em;
+}
+
+p.logos a:link:hover, p.logos a:visited:hover {
+    background-color: inherit;
+}

@@ -1,0 +1,22 @@
+body {
+	font-family: Arial, sans-serif;
+	background: #14171a;
+	color: #d1d5d8;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top: 50px;
+}
+
+a {
+	color: #787eb3;
+	text-decoration: #34495e wavy underline;
+}
+
+pre {
+	border: 2px solid #d1d5d8;
+	border-radius: 5px ;
+	padding: 1em ;
+	margin: 1em ;
+	white-space: pre-wrap;
+	background: #34495e;
+}
